@@ -48,7 +48,7 @@ Happy birthday uli, you deserve all the joy, peace, and love in the world—toda
     if (index < message.length) {
       textElement.innerHTML += message.charAt(index);
       index++;
-      setTimeout(typeNextChar, 65);
+      setTimeout(typeNextChar, 50);
     } else {
       catGif.style.display = "block";
     }
@@ -58,3 +58,4 @@ Happy birthday uli, you deserve all the joy, peace, and love in the world—toda
   catGif.style.display = "none";
   typeNextChar();
 }
+
